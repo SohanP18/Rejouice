@@ -98,6 +98,7 @@ page2Animation()
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 5,
     spaceBetween: 25,
+    delay: 10,
     loop: true,
     autoplay: {
       delay: 2000,
